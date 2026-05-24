@@ -1,11 +1,5 @@
 # Modelo Predictivo e Interpretable para la Identificación Temprana del Riesgo de Deserción Estudiantil en Educación Superior
 
-**Maestría en Business Intelligence y Ciencia de Datos**  
-**Escuela de Negocios**
-
-**Autora:** Shirley Melisa Vega Nieto  
-**Director:** Manuel Eugenio Morocho Cayamcela  
-**Año:** 2026
 
 ---
 
