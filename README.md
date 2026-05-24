@@ -1,11 +1,9 @@
-# modelo-predictivo-desercion-estudiantil
-Modelo predictivo e interpretable para la identificación temprana del riesgo de deserción estudiantil en educación superior mediante técnicas de aprendizaje automático
-Modelo Predictivo e Interpretable para la Identificación Temprana del Riesgo de Deserción Estudiantil en Educación Superior
-Maestría en Business Intelligence y Ciencia de Datos  
+Modelo Predictivo e Interpretable para la Identificacion Temprana del Riesgo de Desercion Estudiantil en Educacion Superior
+Maestria en Business Intelligence y Ciencia de Datos
 Escuela de Negocios
-Autora: Shirley Melisa Vega Nieto  
-Director: Manuel Eugenio Morocho Cayamcela  
-Año: 2026
+Autora: Shirley Melisa Vega Nieto
+Director: Manuel Eugenio Morocho Cayamcela
+Ano: 2026
 ---
 Tabla de Contenidos
 Descripción del Proyecto
@@ -73,33 +71,37 @@ Graduate -> 0
 Esta transformación se justifica por el objetivo de investigación: identificar estudiantes en riesgo de abandono, no distinguir entre estudiantes activos y graduados.
 Categorías de Variables
 Variables académicas
-`Curricular units 1st sem (approved)` — Unidades aprobadas en el primer semestre
-`Curricular units 2nd sem (approved)` — Unidades aprobadas en el segundo semestre
-`Curricular units 1st sem (enrolled)` — Unidades matriculadas en el primer semestre
-`Curricular units 2nd sem (enrolled)` — Unidades matriculadas en el segundo semestre
-`Curricular units 1st sem (without evaluations)` — Unidades sin evaluación, primer semestre
-`Curricular units 2nd sem (without evaluations)` — Unidades sin evaluación, segundo semestre
-`Curricular units 1st sem (grade)` — Promedio de notas, primer semestre
-`Curricular units 2nd sem (grade)` — Promedio de notas, segundo semestre
-`Admission grade` — Nota de admisión
-`Previous qualification (grade)` — Nota de la calificación previa
+Variable	Descripción
+`Curricular units 1st sem (approved)`	Unidades aprobadas en el primer semestre
+`Curricular units 2nd sem (approved)`	Unidades aprobadas en el segundo semestre
+`Curricular units 1st sem (enrolled)`	Unidades matriculadas en el primer semestre
+`Curricular units 2nd sem (enrolled)`	Unidades matriculadas en el segundo semestre
+`Curricular units 1st sem (without evaluations)`	Unidades sin evaluación, primer semestre
+`Curricular units 2nd sem (without evaluations)`	Unidades sin evaluación, segundo semestre
+`Curricular units 1st sem (grade)`	Promedio de notas, primer semestre
+`Curricular units 2nd sem (grade)`	Promedio de notas, segundo semestre
+`Admission grade`	Nota de admisión
+`Previous qualification (grade)`	Nota de la calificación previa
 Variables demográficas
-`Age at enrollment` — Edad del estudiante al momento de la matrícula
-`Gender` — Género
-`Marital status` — Estado civil
-`Nacionality` — Nacionalidad
-`International` — Si el estudiante es internacional
+Variable	Descripción
+`Age at enrollment`	Edad del estudiante al momento de la matrícula
+`Gender`	Género
+`Marital status`	Estado civil
+`Nacionality`	Nacionalidad
+`International`	Si el estudiante es internacional
 Variables socioeconómicas
-`Scholarship holder` — Si el estudiante tiene beca
-`Tuition fees up to date` — Si los pagos de matrícula están al día
-`Debtor` — Si el estudiante tiene deuda pendiente
-`Mother's qualification` / `Father's qualification` — Nivel educativo de los padres
-`Mother's occupation` / `Father's occupation` — Categoría ocupacional de los padres
-`Displaced` — Si el estudiante es una persona desplazada
+Variable	Descripción
+`Scholarship holder`	Si el estudiante tiene beca
+`Tuition fees up to date`	Si los pagos de matrícula están al día
+`Debtor`	Si el estudiante tiene deuda pendiente
+`Mother's qualification` / `Father's qualification`	Nivel educativo de los padres
+`Mother's occupation` / `Father's occupation`	Categoría ocupacional de los padres
+`Displaced`	Si el estudiante es una persona desplazada
 Variables macroeconómicas
-`Unemployment rate` — Tasa de desempleo nacional al momento de la matrícula
-`Inflation rate` — Tasa de inflación al momento de la matrícula
-`GDP` — Tasa de crecimiento del PIB al momento de la matrícula
+Variable	Descripción
+`Unemployment rate`	Tasa de desempleo nacional al momento de la matrícula
+`Inflation rate`	Tasa de inflación al momento de la matrícula
+`GDP`	Tasa de crecimiento del PIB al momento de la matrícula
 El archivo que espera el pipeline es `BDF.xlsx` y debe ubicarse en `data/BDF.xlsx` antes de la ejecución.
 ---
 4. Metodología
